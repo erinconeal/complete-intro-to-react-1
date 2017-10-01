@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["prettier"],
   "parserOptions": {
@@ -13,4 +14,26 @@
     "browser": true,
     "node": true
   }
+=======
+	"extends": [
+		"airbnb",
+		"prettier",
+		"prettier/react"
+	],
+	"plugins": [
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2016,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	}
+>>>>>>> 60556fd702c3d19ac0f95aaf908f049103d1cdcb
 }

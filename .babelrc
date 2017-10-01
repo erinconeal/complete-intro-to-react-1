@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "presets": [
     "react",
     [
@@ -12,4 +13,16 @@
       }
     ]
   ]
+=======
+	"presets": [
+		"react",
+		["env", {
+			"targets": {
+				"browsers": "last 2 versions"
+			},
+			"loose": true,
+			"modules": false
+		}]
+	]
+>>>>>>> 60556fd702c3d19ac0f95aaf908f049103d1cdcb
 }
